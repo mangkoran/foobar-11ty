@@ -15,5 +15,6 @@
     <main tabindex="-1" id="main-content">
       {% block content %}{% endblock %}
     </main>
+    {% if debug %}<pre>{{ page | dump(2) | safe }}</pre>{% endif %}
   </body>
 </html>
