@@ -1,7 +1,7 @@
 ---
 title: Blog
 layout: layouts/feed.njk
-postListItems: UX
+postListItems: post
 ---
 This is blog index
 
