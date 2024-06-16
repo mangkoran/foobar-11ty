@@ -10,6 +10,7 @@
     "typescript": "^5.0.0"
   },
   "scripts": {
+    "build": "ELEVENTY_NODRAFT=true bunx --bun @11ty/eleventy",
     "serve": "ELEVENTY_NODRAFT=true bun serve:draft",
     "serve:debug": "DEBUG=Eleventy* bun serve",
     "serve:draft": "bunx --bun @11ty/eleventy --serve",
