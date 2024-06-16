@@ -1,7 +1,8 @@
 export default (eleventyConfig) => {
+  eleventyConfig.addPassthroughCopy("./src/images/");
   return {
-    markdownTemplateEngine: "njk",
     htmlTemplateEngine: "njk",
+    markdownTemplateEngine: "njk",
     dir: {
       input: "src",
       output: "dist",

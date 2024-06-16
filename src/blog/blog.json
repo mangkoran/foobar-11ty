@@ -1,0 +1,5 @@
+{
+  "layout": "layouts/post.njk",
+  "permalink": "{{ page.filePathStem | slugify({preserveCharacters: ['/']}) }}/index.html",
+  "tags": ["blog"]
+}

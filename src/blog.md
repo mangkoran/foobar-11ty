@@ -1,7 +1,8 @@
 ---
 title: Blog
 layout: layouts/feed.njk
-postListItems: post
+postListItems: blog
 ---
-This is blog index
+This blog is a place for me to learn writing articles and also as reference for
+my future self before I forget things the next day.
 
