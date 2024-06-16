@@ -1,11 +1,18 @@
 ---
 title: Markdown Cheat Sheet
-date: 2024-03-11T00:00:00.000Z
+date: 2024-06-16T00:00:00.000Z
 draft: false
 tags:
   - markdown
 ---
-# Markdown Cheat Sheet
+This blog post page is taken from
+[mattcone/markdown-guide](https://raw.githubusercontent.com/mattcone/markdown-guide/master/assets/markdown-cheat-sheet.md).
+I found several extended markdown spec are not supported by default by 11ty. In
+addition to the spec I marked with "X" below, HTML element id and class is also
+not supported (I need to remove the example code as it result in compilation
+error).
+
+---
 
 Thanks for visiting [The Markdown Guide](https://www.markdownguide.org)!
 
@@ -89,13 +96,13 @@ Markdown applications support these elements.
 }
 ```
 
-### Footnote
+### Footnote (X)
 
 Here's a sentence with a footnote. [^1]
 
 [^1]: This is the footnote.
 
-### Definition List
+### Definition List (X)
 
 term
 : definition
@@ -110,21 +117,21 @@ term
 - [ ] Update the website
 - [ ] Contact the media
 
-### Emoji
+### Emoji (X)
 
 That is so funny! :joy:
 
 (See also [Copying and Pasting Emoji](https://www.markdownguide.org/extended-syntax/#copying-and-pasting-emoji))
 
-### Highlight
+### Highlight (X)
 
 I need to highlight these ==very important words==.
 
-### Subscript
+### Subscript (X)
 
 H~2~O
 
-### Superscript
+### Superscript (X)
 
 X^2^
 

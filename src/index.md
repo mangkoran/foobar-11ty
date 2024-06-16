@@ -2,5 +2,5 @@
 title: Home
 layout: layouts/home.njk
 ---
-This is home page of {{ site.name }}.
+This is the home page of **{{ site.name }}**.
 
